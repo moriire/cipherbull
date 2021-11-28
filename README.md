@@ -1,7 +1,7 @@
 # cipherbull
-Symmetric Encryption - Ceaser, Vigenere
+Symmetric Encryption - Ceaser, Vigenere and others
 ```sh
-
+### [Ceaser Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 import string
 class Ceaser:
     """
@@ -36,7 +36,7 @@ class Ceaser:
         return self.k
 ```
 
-###  [Vigenere Cipher](https://en.wikipedia.org/wiki/Blaise_de_Vigen%C3%A8re#Vigen%C3%A8re_cipher)
+###  [Vigenere Cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
 ```sh
 class Vigenere:
     string = string.ascii_lowercase
