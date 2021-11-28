@@ -74,7 +74,7 @@ class Vigenere:
         return w
 
     def decrypt(self):
-        tuple(map(lambda x: x[0].__sub__(x[1])+25, self.res()))
+        res = tuple(map(lambda x: x[0].__sub__(x[1])+25, self.res()))
         w = ""
         for l in self.res:
             w += self.__alpha(l-26)
