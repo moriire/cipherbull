@@ -1,6 +1,6 @@
 # cipherbull
 Symmetric Encryption - Ceaser, Vigenere
-''sh
+```sh
 
 import string
 class Ceaser:
@@ -34,4 +34,4 @@ class Ceaser:
     
     def key(self):
         return self.k
-''
+```
